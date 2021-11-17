@@ -33,6 +33,9 @@
     .reputation__wrapper-col {
         padding: 20px;
     }
+    .tariffPlan__row {
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -102,7 +105,7 @@
     }
 
     .threeSteps__li-img {
-        left: 0;
+        left: -10px;
     }
 
     .threeSteps__text {
@@ -130,7 +133,7 @@
     }
 
     .reputation__wrapper-col {
-        padding: 0;
+        padding: 5px;
     }
 
     .margin250px-text18px {
@@ -151,6 +154,9 @@
     .title-line {
         padding-bottom: 0;
     }
+    .promotion__wrapper-col{
+        text-align: center;
+    }
 
     .promotion__col-img {
         max-width: 60%;
@@ -164,7 +170,6 @@
     }
 
     .tariffPlan__row {
-        justify-content: space-around;
         padding-bottom: 15px;
     }
 
@@ -221,12 +226,21 @@
         flex-direction: column;
     }
 
+    .tariffPlan__wrapper-col {
+        padding: 35px;
+    }
+
     .askQuestion__title {
         padding: 15px 0 15px;
     }
 
+    .footer__social {
+        justify-content: center;
+    }
+
     .footer__bottom {
         flex-direction: column;
+        padding-bottom: 0;
     }
 
     .footer__bottom-item {
@@ -235,8 +249,12 @@
 }
 
 @media screen and (max-width: 440px) {
+    .footer__top-li {
+text-align: center;
+        width: 100%;
+    }
     .footer__top {
-        justify-content: center;
+        /*justify-content: center;*/
     }
 }
 
